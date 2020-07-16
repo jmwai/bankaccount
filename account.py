@@ -1,5 +1,8 @@
-#python 3.7.1
 class BankAccount:
+    """
+    A customer's bank account. Allows for creation of an account using first_name and last_name.
+    Allows deposit and withdrawal of funds as well checking the current balance
+    """
     bank = "KCB"
     
     def __init__(self, first_name, last_name):
